@@ -48,7 +48,9 @@ for tr in tab.find_all("tr"):
 
 print(age_rates)
 
-"""My own code to convert age_rates to numbers"""
+
+
+# Converting previous data to a single list of numbers 
 
 age_rates =  pd.DataFrame(age_rates).T.values.tolist()
 
