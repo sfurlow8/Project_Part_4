@@ -69,7 +69,6 @@ numbers = age_rates[1]
 numbers = [float(x) for x in numbers]
 print(numbers)
 
-"""back to gpt code"""
 
 # Searching for numbers in DynamoDB
 
