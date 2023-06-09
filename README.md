@@ -7,6 +7,16 @@ Download the files project_bonus.py, copy_files.sh, login.sh, pip_install.sh, an
 
       bash copy_files.sh
       
+ Now login to the EC2 instance from the folder where the .pem key is located:
+
+      bash login.sh
+ 
+ 
+
+python3 -m ensurepip --default-pip
+
+pip install -r requirements.txt
+      
 ## Paragraph Scraping
   For the scraping of paragraph data, we utilized the BeautifulSoup and requests python libraries. We start by defining the url variable to hold the web address of the webpage to be scraped, "https://www.abs.gov.au/statistics/health/health-conditions-and-risks/smoking/2020-21".
 We then use the function requests.get(url) to send an HTTP GET request to the specified URL and retrieve the webpage's content, which is stored in the variable response. The BeautifulSoup(response.content, "html.parser") line parses the response.content, and we extract all paragraphs using soup.find_all("p"), by finding all the <p> tags within the BeautifulSoup object. the resulting paragraphs list is stored in paragraphs. 
