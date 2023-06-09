@@ -19,7 +19,7 @@ Download the files project_bonus.py, copy_files.sh, login.sh, pip_install.sh, an
  
       bash pip_install.sh
       
- Once you have the necessary packages successfulyl installed, you can run the script with:
+ Once you have the necessary packages successfully installed, you can run the script with:
  
       python3 project_bonus.py
 
