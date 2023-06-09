@@ -30,7 +30,7 @@ for paragraph in paragraphs:
     table.put_item(Item=data)
     i += 1
 
-"""Below is what I found of the relevant code from part 3"""
+# The previous data, as obtained from the relevant code of part 3
 
 url = "https://www.abs.gov.au/statistics/health/health-conditions-and-risks/smoking/latest-release" # site to scrape
 response = requests.get(url).text
