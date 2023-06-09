@@ -1,0 +1,5 @@
+requests
+bs4
+pandas
+boto3
+pathlib
